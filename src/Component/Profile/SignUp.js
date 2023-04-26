@@ -90,6 +90,7 @@ function SignUp() {
             <div className='adress-feild'>
                 {/* <label>Adress:</label> */}
                 <textarea
+                placeholder='Adress'
                  type='text'
                  value={adress}
                  onChange={(e) => {setAdress(e.target.value)}}
@@ -98,6 +99,7 @@ function SignUp() {
             <div className='paswword-feild'>
                 {/* <label>Password:</label> */}
                 <input
+                placeholder='Password'
                  type='password'
                  value={password}
                  onChange={(e) => {setPassword(e.target.value)}}
@@ -106,6 +108,7 @@ function SignUp() {
             <div>
                 {/* <label>Confirm Password:</label> */}
                 <input
+                placeholder='Confirm Password'
                  type='password'
                  value={confirmPassword}
                  onChange={(e) => {setConfirmPassword(e.target.value)}}
